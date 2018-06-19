@@ -1,0 +1,30 @@
+{
+    "name": "tavux/laravel-blockchain",
+    "description": "Manage Users wallets and other object addresses. Works For Ethereum for now.",
+    "license": "MIT",
+    "keywords": [
+        "Ethereum",
+        "Laravel"
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "jcsofts/laravel-ethereum": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Selim TAVUKCUOGLU",
+            "email": "selim@tavux.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Tavux\\LaravelBlockchain\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+
+        }
+    }
+}
